@@ -1,0 +1,27 @@
+footer {
+  background-color: #000;
+  border-top: 9px solid #222;
+  padding: 50px 20vw 100px;
+  div {
+    padding: 50px 0;
+    ul {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-auto-rows: 50px;
+      a {
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        &:hover {
+          text-decoration: underline #757575;
+        }
+      }
+      li {
+        list-style-type: none;
+        text-align: left;
+        color: #757575;
+        font-size: 16px;
+      }
+    }
+  }
+}
