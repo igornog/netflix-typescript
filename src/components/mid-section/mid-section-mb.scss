@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1024px) {
+    .middle-section {
+        article {
+            flex-wrap: wrap;
+            .img-wrapper {
+                padding: 0;
+                img {
+                    width: 100%;
+                }
+            }
+            .text-wrapper {
+                padding: 0 15px !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.middle-section {
+    background-color: #000;
+    article {
+        border-top: 9px solid #222;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 50px 0;
+        &:nth-of-type(2){
+            flex-direction: row;
+            .img-wrapper {
+                padding-right: 0;
+            }
+            .text-wrapper {
+                padding-left: 0;
+                padding-right: 12vw;
+            }
+        }
+        .text-wrapper {
+            text-align: left;
+            padding-left: 12vw;
+            h1, h2 {
+                text-align: left;
+                padding: 0;
+            }
+            h1 {
+                font-size: 3.25rem;
+            }
+            h2 {
+                font-size: 1.5rem;
+                font-weight: 500;
+                margin: 24px 0; 
+            }
+        }
+        .img-wrapper {
+            padding-right: 12vw;
+        }
+    }
+}

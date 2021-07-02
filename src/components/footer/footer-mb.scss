@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1024px) {
+  footer {
+    padding: 50px 15px 100px;
+    div {
+      ul {
+        grid-auto-rows: 30px;
+      }
+    }
+  }
+}

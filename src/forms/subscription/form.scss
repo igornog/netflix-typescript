@@ -1,0 +1,46 @@
+form {
+    height: 60px;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .input-wrapper {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      text-align: left;
+      input {
+        height: 100%;
+        width: 100%;
+        font-size: 24px;
+        border: 0;
+        transform: translate(0, 0);
+        padding: 0 15px;
+        box-sizing: content-box;
+        &:focus, &:active {
+          outline: none;
+        }
+        &:focus + label, &:focus-within + label, &:active + label, &.active + label {
+          transform: translate(-.25rem, -1rem);
+          transition: all 0.2s ease-out;
+          font-size: 10px;
+        }
+      }
+      label {
+        position: absolute;
+        padding: 20px;
+        pointer-events: none;
+        color: black;
+        top: 0;
+        transition: all 0.2s ease-out;
+      }
+    }
+    button {
+      width: 20vw;
+      height: 100%;
+      border-radius: 0 !important;
+      span {
+        font-size: 24px;
+      }
+    }
+  }
