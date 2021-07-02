@@ -3,9 +3,9 @@ import Button from '../../atoms/Button/Button'
 import './header.scss';
 import './header-mb.scss';
 
-const Header = () =>     
+const Header = () =>
   <header className="App-header">
-    <img src={logo} className="netflix-logo" alt="logo" />
+    <img src={logo} className="netflix-logo" onClick={() => window.location.reload()} alt="logo" />
     <Button>Sign In</Button>
   </header>
 

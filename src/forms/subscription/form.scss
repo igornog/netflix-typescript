@@ -21,7 +21,7 @@ form {
           outline: none;
         }
         &:focus + label, &:focus-within + label, &:active + label, &.active + label {
-          transform: translate(-.25rem, -1rem);
+          transform: translate(-.25rem, -1.2rem);
           transition: all 0.2s ease-out;
           font-size: 10px;
         }
