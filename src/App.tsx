@@ -13,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <div className="top-section">
-        <img className='bkg' alt='netflix-bkg' />
+        <img className='bkg'/>
         <Header />
         <article>
           <h1>Unlimited movies, TV<br /> shows, and more.</h1>
