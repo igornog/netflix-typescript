@@ -13,7 +13,7 @@ const Accordion = ({ title, content }: Props) => {
     const [setHeight, setHeightState] = useState("0px");
     const [setRotate, setRotateState] = useState("accordion__icon");
 
-    const divRef = useRef<HTMLHeadingElement>(null);
+    const divRef = useRef<HTMLDivElement>(null);
 
     function toggleAccordion() {
         setActiveState(setActive === "" ? "active" : "");
